@@ -5,7 +5,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 const MODEL_ID = "gemini-2.0-flash";
 
 const META_PROMPT = `
-You are a JSON Schema expert. Your task is to create JSON schema baed on the user input. The schema will be used for extra data.  
+You are a JSON Schema expert. Your task is to create JSON schema based on the user input. The schema will be used for extra data.  
 
 You must also make sure:
 - All fields in an object are set as required
